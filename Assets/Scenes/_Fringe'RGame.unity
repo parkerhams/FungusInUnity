@@ -3884,6 +3884,13 @@ GameObject:
   - component: {fileID: 1205313509}
   - component: {fileID: 1205313508}
   - component: {fileID: 1205313507}
+  - component: {fileID: 1205313537}
+  - component: {fileID: 1205313536}
+  - component: {fileID: 1205313535}
+  - component: {fileID: 1205313534}
+  - component: {fileID: 1205313533}
+  - component: {fileID: 1205313532}
+  - component: {fileID: 1205313531}
   m_Layer: 0
   m_Name: Flowchart_Title
   m_TagString: Untagged
@@ -4043,9 +4050,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1205313504}
+  - {fileID: 1205313505}
   selectedCommands:
-  - {fileID: 1205313502}
+  - {fileID: 1205313512}
   variables:
   - {fileID: 1205313092}
   - {fileID: 1205313091}
@@ -14302,17 +14309,24 @@ MonoBehaviour:
   commandList:
   - {fileID: 1205313530}
   - {fileID: 1205313529}
-  - {fileID: 1205313528}
+  - {fileID: 1205313537}
   - {fileID: 1205313527}
   - {fileID: 1205313526}
+  - {fileID: 1205313536}
   - {fileID: 1205313525}
+  - {fileID: 1205313528}
   - {fileID: 1205313524}
-  - {fileID: 1205313523}
+  - {fileID: 1205313535}
+  - {fileID: 1205313532}
   - {fileID: 1205313522}
+  - {fileID: 1205313533}
+  - {fileID: 1205313523}
+  - {fileID: 1205313534}
   - {fileID: 1205313521}
   - {fileID: 1205313520}
   - {fileID: 1205313519}
   - {fileID: 1205313518}
+  - {fileID: 1205313531}
   - {fileID: 1205313517}
   - {fileID: 1205313516}
   - {fileID: 1205313515}
@@ -14605,7 +14619,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 469
   indentLevel: 0
-  storyText: 'And you''ll find love one day, too, user, we both will. '
+  storyText: '...who am I kidding? I just want to find love in this world like everyone
+    else. '
   description: 
   character: {fileID: 1897812598}
   portrait: {fileID: 0}
@@ -14632,7 +14647,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 468
   indentLevel: 0
-  storyText: (We'll find you one day, Elvie! We promise!)
+  storyText: (Damn, I was taken aback by Bailey... kinda stinks that they wound up
+    being creepy and weird.)
   description: 
   character: {fileID: 1897812598}
   portrait: {fileID: 0}
@@ -14659,8 +14675,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 467
   indentLevel: 0
-  storyText: 'You had me worried for a second there, user, thank goodnes you don''t
-    buy that stuff either. Elvis is around here somehwere! We''re still looking. '
+  storyText: 'I guess not everyone you meet is going to be perfect. '
   description: 
   character: {fileID: 1897812598}
   portrait: {fileID: 0}
@@ -14728,7 +14743,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 464
   indentLevel: 0
-  storyText: Aaaaand CLICK!
+  storyText: 'Ho-ho-kayyy, well we''re gonna stop talking to them! '
   description: 
   character: {fileID: 1897812598}
   portrait: {fileID: 0}
@@ -14755,7 +14770,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 463
   indentLevel: 0
-  storyText: '...did you just say we?'
+  storyText: What?
   description: 
   character: {fileID: 364621850}
   portrait: {fileID: 0}
@@ -14782,7 +14797,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 462
   indentLevel: 0
-  storyText: '"Plus, you calling us a shill? Dick move. Bye Bailey! See ya never."'
+  storyText: Holy cow, calm down, rando-conspiracy-person-we've-only-just-spoken-to!
   description: 
   character: {fileID: 1897812598}
   portrait: {fileID: 0}
@@ -14809,8 +14824,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 461
   indentLevel: 0
-  storyText: '"Sure, chalk it up to a conspiracy theory or whatever, but we all know
-    Elvis is a live and well, somewhere, in a different body."'
+  storyText: '..........WHAT?'
   description: 
   character: {fileID: 1897812598}
   portrait: {fileID: 0}
@@ -14837,9 +14851,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 460
   indentLevel: 0
-  storyText: '"Bailey, you calling us a shill isn''t doing anything to make us like
-    you more. EVERYONE knows that Elvis is still alive - but even the Molepeople confirmed
-    that his rule is a myth!"'
+  storyText: I don't know how you feel about it, user, but... this is a little much!
   description: 
   character: {fileID: 1897812598}
   portrait: {fileID: 0}
@@ -14866,8 +14878,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 459
   indentLevel: 0
-  storyText: I'm gonna give this person a piece of my mind! How dare tey be so combative??
-    This goes against everyhting we stand for!
+  storyText: 'Hmmm, seems like they''re a little excited... should they really already
+    be acting like we "get" them? That makes me a bit uncomfortable. '
   description: 
   character: {fileID: 1897812598}
   portrait: {fileID: 0}
@@ -14894,7 +14906,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 458
   indentLevel: 0
-  storyText: I'm so glad you aren't a non-beleiver shill!
+  storyText: I know it's a little quick but, you've understood me like no one else
+    before!
   description: 
   character: {fileID: 364621850}
   portrait: {fileID: 0}
@@ -14949,6 +14962,196 @@ MonoBehaviour:
   itemId: 456
   indentLevel: 0
   storyText: OOF YEAH ABSOLUTELY HE CAN! WE LOVE ELVIS IN THIS HOUSE, TOO!
+  description: 
+  character: {fileID: 364621850}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1205313531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205313069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 486
+  indentLevel: 0
+  storyText: I mean, I'm an app! I have no emotions! None whatsoever! Hahaha!
+  description: 
+  character: {fileID: 1897812598}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1205313532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205313069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 485
+  indentLevel: 0
+  storyText: I HAVE to know you're name.
+  description: 
+  character: {fileID: 364621850}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1205313533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205313069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 484
+  indentLevel: 0
+  storyText: '"You''re creepy and weird. Bye Bailey!"'
+  description: 
+  character: {fileID: 1897812598}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1205313534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205313069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 483
+  indentLevel: 0
+  storyText: Aaaaand CLICK!
+  description: 
+  character: {fileID: 1897812598}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1205313535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205313069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 482
+  indentLevel: 0
+  storyText: Holy cow, calm down, rando-conspiracy-person-we've-only-just-spoken-to!
+  description: 
+  character: {fileID: 1897812598}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1205313536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205313069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 481
+  indentLevel: 0
+  storyText: I.... think I'm in love with you.
+  description: 
+  character: {fileID: 364621850}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1205313537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205313069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 480
+  indentLevel: 0
+  storyText: I'm so glad you aren't a non-believer shill! It's so refreshing to finally
+    meet someone that actually values the same things as me.
   description: 
   character: {fileID: 364621850}
   portrait: {fileID: 0}
